@@ -1,0 +1,63 @@
+body {
+    background-color: #999999;
+}
+#header {
+    background-color:#525252;
+    color:white;
+    text-align:center;
+    padding:1px;
+    border-radius: 20px;
+}
+.datehead {
+    width: 1152px;
+    height: 20px;
+    background-color: #FF8EB4;
+}
+.year {
+    width: 1152px;
+    height: 16px;
+
+}
+.year1 {
+    text-align: center;
+    background-color: #E6E6B8;
+    border-radius: 32px;
+    font-weight: bold;
+    float: left;
+    width: 576px;
+}
+
+.gantt{
+    float: left;
+    width: 48px;
+    height: 480px;
+}
+
+.gantt:nth-child(even){
+    background-color: #7FCAE1;
+}
+
+.gantt:nth-child(odd){
+    background-color: #39ADD1;
+}
+/*.gantt2 {
+    float: left;
+    width: 48px;
+    height: 480px;
+    background-color: #39ADD1;
+}*/
+.months {
+    float: left;
+    font-weight: bold;
+    width: 48px;
+    text-align: center;
+
+}
+#ganttparent {
+    position: relative;
+}
+#inBetween {
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+}

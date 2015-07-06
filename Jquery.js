@@ -14,7 +14,6 @@ $(document).ready(function() {
         var width = t - s;
 
         var $div = $('<div></div>');
-        alert(444);
         var style;
         style = {
             height: "20px",
